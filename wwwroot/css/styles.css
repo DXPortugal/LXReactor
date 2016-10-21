@@ -1,0 +1,599 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/fonts/all/normal/segoeui.eot');
+    src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url('/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'), url('/fonts/all/normal/segoeui.woff') format('woff'), url('/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Semibold';
+    src: url('/fonts/seguisb.eot');
+    src: local("Segoe Semibold"), local("Segoe WP Semibold"), url('/fonts/seguisb.eot?#iefix') format('embedded-opentype'), url('/fonts/seguisb.woff') format('woff'), url('/fonts/seguisb.svg#SegoeUISemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('/fonts/segoeuib.eot');
+    src: local("Segoe Bold"), local("Segoe WP Bold"), url('/fonts/segoeuib.eot?#iefix') format('eot'), /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
+    url('/fonts/segoeuib.woff') format('woff'), url('/fonts/segoeuib.svg#SegoeUIBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('/fonts/segoeuil.eot');
+    src: local("Segoe UI Light"), local("Segoe WP Light"), url('/fonts/segoeuil.eot?#iefix') format('embedded-opentype'), url('/fonts/segoeuil.woff') format('woff'), url('/fonts/segoeuil.svg#SegoeUILight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 17px;
+    font-family: 'Segoe UI', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefdee;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
+/*navbar*/
+
+.navbarLink {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white !important;
+}
+
+.navbarColor {
+    background-color: #333333;
+}
+
+.navbarLink:hover {
+    text-decoration: none !important;
+    color: #00b5b8 !important;
+}
+
+#ativarportugal {
+    margin-top: -4px;
+}
+
+.journeybanner {
+    width: 100%;
+    padding: 0 !important;
+}
+
+#timeline {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0 !important;
+}
+
+.partner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0 !important;
+}
+
+
+/*footer*/
+
+#footer {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.footerTitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 32px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#copy {
+    color: white !important;
+}
+
+#microsoft {
+    margin-bottom: -25px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+/*Main page body*/
+
+hr {
+    background-color: #333;
+    border-color: #333;
+}
+
+.title {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 28px;
+}
+
+.exttitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(186, 66, 94);
+}
+
+.bigTitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pageTitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.pageTitleSmall {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.programTitle {
+    font-size: 37px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.challengesubtitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 31px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 33px;
+}
+
+.challengesubsubtitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 8px;
+    line-height: 25px;
+}
+
+.subsubtitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: -15px;
+    padding-bottom: 8px;
+}
+
+.faqtitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxTitle {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.boxText {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    line-height: 30px;
+}
+
+.boxButton {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.masterDateBlue {
+    background-color: #e2e2e2;
+    border-right: 15px solid #00A0A4;
+    border-radius: 4px;
+    border-left: 20px solid #00A0A4;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.masterDayBlue {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    text-align: center;
+    color: #00A0A4;
+}
+
+.masterMonthBlue {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    color: #00A0A4;
+}
+
+.addCalendarBlue {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #00A0A4;
+    text-align: center;
+}
+
+.masterDatePink {
+    background-color: #e2e2e2;
+    border-right: 15px solid #BA425E;
+    border-radius: 4px;
+    border-left: 20px solid #BA425E;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.masterDayPink {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    text-align: center;
+    color: #BA425E;
+}
+
+.masterMonthPink {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    color: #BA425E;
+}
+
+.addCalendarPink {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #BA425E;
+    text-align: center;
+}
+
+.masterSpeaker {
+    font-weight: 300;
+}
+
+.masterTitle {
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.masterTime {
+    font-size: 25px;
+    font-weight: 350;
+    color: white;
+}
+
+.masterBox {
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.text-body {
+    margin: 0% 15% 0% 15%
+}
+
+.poweredByBig {
+    height: 175px;
+}
+
+.poweredBySmall {
+    height: 125px;
+}
+
+.chevron {
+    font-size: 3em !important;
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+    color: #00b5b8;
+}
+
+.circle-right {
+    font-size: 1em !important;
+    color: rgb(254, 180, 10);
+}
+
+.circle-div {
+    padding: 0;
+}
+
+body span.glyphicon.glyphicon-chevron-down {
+    font-size: 30px;
+    text-align: center;
+}
+
+#holder {
+    min-height: 100%;
+    position: relative;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.faqimg {
+    width: 100%;
+}
+
+.noBorder {
+    border-width: 0;
+}
+
+.left-button-pad {
+    margin-right: 5px;
+}
+
+.right-button-pad {
+    margin-left: 5px;
+}
+
+.ok {
+    width: 200px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+
+/* CLOCK */
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) {
+    #clockdiv {
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 60px;
+    }
+    .smalltext {
+        color: #333;
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #copy {
+        padding-top: 4px;
+        font-size: 14px;
+    }
+}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    #clockdiv {
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 50px;
+    }
+    .smalltext {
+        color: #333;
+        padding-top: 5px;
+        font-size: 18px;
+        font-weight: 350;
+    }
+    #copy {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {
+    #clockdiv {
+        width: 100%;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    .smalltext {
+        color: #333;
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+#clockdiv>div {
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.days {
+    background: #BA425E !important;
+}
+
+#clockdiv div>span {
+    width: 100%;
+    border-radius: 3px;
+    background: #c7c7c7;
+    display: inline-block;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.days,
+.hours,
+.minutes {
+    font-weight: 400;
+}
+
+#channel9 {
+    text-decoration: none;
+}
+
+
+/*COLORING*/
+
+.blueTitle {
+    color: #00A0A4;
+}
+
+.pinkTitle {
+    color: #BA425E;
+}
+
+.purpleTitle {
+    color: #764464;
+}
+
+.bluebg {
+    background-color: #00A0A4;
+}
+
+.pinkbg {
+    background-color: #BA425E;
+}
+
+.purplebg {
+    background-color: #764464;
+}
+
+.offwhitebg {
+    background-color: #d9d9d9;
+}
+
+.greybg {
+    background-color: #e2e2e2;
+}
+
+.whiteText {
+    color: #fefdee;
+}
+
+.paddingbottom {
+    padding-bottom: 40px;
+}
+
+.paddingtop {
+    padding-top: 40px;
+}
+
+.buttonpaddingtop {
+    padding-top: 15px;
+}
+
+.buttonpaddingbottom {
+    padding-bottom: 15px;
+}
+
+.landingBox {
+    border-radius: 4px;
+}
+
+#chabanner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+hr {
+    border-color: #b7b7b7;
+    border-right: 0;
+    border-left: 0;
+}
+
+.fake-link {
+    cursor: pointer;
+}
+
+.fake-link:hover {
+    color: #337ab7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footerLink {
+    font-size: 14px;
+    text-decoration: none !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.footerLink:hover {
+    text-decoration: none !important;
+    color: #00b5b8 !important;
+}
+
+#hashtag {
+    text-align: center;
+    font-size: 30px;
+}
