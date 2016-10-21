@@ -139,6 +139,7 @@ hr {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: darkblue
 }
 
 .pageTitle {
@@ -520,6 +521,10 @@ body span.glyphicon.glyphicon-chevron-down {
 
 .pinkbg {
     background-color: #BA425E;
+}
+
+.lightpurplebg {
+    background-color: #A97797;
 }
 
 .purplebg {
