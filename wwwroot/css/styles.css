@@ -106,13 +106,13 @@ hr {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 32px;
     padding-bottom: 10px;
 }
 
 .text {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     text-align: left;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -181,12 +181,13 @@ hr {
     text-align: center;
 }
 
-.subsubtitle {
+.subtitle {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 23px;
     text-align: center;
     margin-top: -15px;
     padding-bottom: 8px;
+    padding-top: 15px;
 }
 
 .boxTitle {
