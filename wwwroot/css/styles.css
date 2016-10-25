@@ -42,7 +42,6 @@ body {
 
 /*navbar*/
 
-
 .navbarColor {
     background-color: #333333;
 }
@@ -116,15 +115,15 @@ hr {
     font-size: 19px;
     text-align: left;
     padding-top: 20px;
-    padding-bottom: 80px;
-    color: white;   
+    padding-bottom: 40px;
+    color: white;
 }
 
 .idea {
     font-family: 'Segoe UI Bold', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 36px;
+    font-size: 28px;
     color: white;
     padding-top: 30px;
 }
@@ -132,15 +131,48 @@ hr {
 .plus {
     font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 21px;
     color: white;
 }
 
 .button {
-    width: 225px;
-    height: 65px;
+    width: 215px;
+    height: 60px;
     font-family: 'Segoe UI Bold', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 28px;
+    color: white;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.margintop {
+    margin-top: 25px;
+}
+
+.ideaBanner {
+    font-family: 'Segoe UI Bold', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    padding-top: 90px;
+}
+
+.plusBanner {
+    font-family: 'Segoe UI Light', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.buttonBanner {
+    width: 180px;
+    height: 50px;
+    font-family: 'Segoe UI Bold', 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
     color: white;
     border-radius: 0px;
     margin-top: 20px;
@@ -225,8 +257,32 @@ body span.glyphicon.glyphicon-chevron-down {
     outline: none;
 }
 
+
 /*COLORING*/
 
+.purplebutton:hover {
+    color: #2F245D;
+}
+
+.bluebutton:hover {
+    color: #263E7F;
+}
+
+.greenbutton:hover {
+    color: #168241;
+}
+
+.greenbutton2:hover {
+    color: #054D27;
+}
+
+.violetbutton:hover {
+    color: #552260;
+}
+
+.aquabutton:hover {
+    color: #03B698;
+}
 
 .lightpurplebg {
     background-color: #5A3D96;
@@ -237,7 +293,7 @@ body span.glyphicon.glyphicon-chevron-down {
 }
 
 .violetbutton {
-    background-color: #D93191; 
+    background-color: #D93191;
 }
 
 .lightvioletbg {
@@ -248,7 +304,7 @@ body span.glyphicon.glyphicon-chevron-down {
     background-color: #552260;
 }
 
-.aquabutton{
+.aquabutton {
     background-color: #0E8677
 }
 
@@ -276,9 +332,14 @@ body span.glyphicon.glyphicon-chevron-down {
     background-color: #263E7F;
 }
 
+.blueTitle {
+    color: #263E7F;
+}
+
 .whiteText {
     color: #fefdee;
 }
+
 
 /*PADDING*/
 
@@ -309,11 +370,12 @@ body span.glyphicon.glyphicon-chevron-down {
     text-decoration: none !important;
     color: #00b5b8 !important;
 }
+
 .row.match-my-cols {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-.row.match-my-cols [class*="col-"]{
+.row.match-my-cols [class*="col-"] {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
@@ -322,6 +384,18 @@ body span.glyphicon.glyphicon-chevron-down {
     margin: 0 auto;
 }
 
-.carousel-control.left, .carousel-control.right {
+.carousel-control.left,
+.carousel-control.right {
     background-image: none !important;
+    width: 5%;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    right: 10px;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    left: 10px;
 }
